@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Volkhov', serif; */
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    padding: 0 100px;
+    position: relative;
+}
+
+.decore {
+    position: absolute;
+    z-index: -1;
+    left: 47.8%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.navbar ul {
+    margin-right: -150px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font: 500px;
+}
+
+.navbar .btn {
+    margin-right: -150px;
+    padding-left: 30px;
+}
+
+.navbar .btn :nth-child(1) {
+    border: none;
+    outline: none;
+    margin-right: 40px;
+    font-size: 16px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.navbar .btn :nth-child(2) {
+    padding: 8px 15px;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    margin-right: -40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.navbar select {
+    border: none;
+    background: transparent;
+}
+
+
+.hero1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+
+.hero1 .left {
+    width: 40%;
+}
+
+.hero1 .left h6 {
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #DF6951;
+}
+
+.hero1 .left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Volkhov', serif;
+    margin-bottom: 20px;
+}
+
+.hero1 .left p {
+    font-size: 16px;
+    opacity: .8;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.hero1 .left .btn button {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #F1A501;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero1 .left .btn i {
+    background: #DF6951;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.hero1 .left .btn span {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #796767;
+    /* padding: 15px 30px; */
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.hero1 .right {
+    width: 50%;
+}
+
+.hero1 .right img {
+    width: 100%;
+}
+
+
+.hero2 {
+    margin-top: 150px;
+}
+
+.hero2 .title {
+    text-align: center;
+    opacity: .8;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hero2 .heading {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Volkhov', serif;
+}
+
+.hero2 .cards {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards .card1 {
+    background: #ededed;
+    border-radius: 20px;
+    width: 25%;
+    height: 300px;
+    margin-left: 70px;
+}
+
+.card1 img {
+    display: block;
+    margin: 40px auto;
+}
+
+.cards .card2 {
+    position: relative;
+    background: #fbf6f6;
+}
+
+.card2 img {
+    margin: 0 auto;
+    position: relative;
+}
+
+.card2 .Rectangle {
+    position: absolute;
+    /* bottom: -1%; */
+    z-index: -9;
+    left: -17%;
+    bottom: -8%;
+
+}
+
+.card1 h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card1 p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 1.4;
+    opacity: .9;
+    font-weight: 500;
+}
+
+.hero3 {
+    margin-top: 150px;
+}
+
+.hero3 .title {
+    text-align: center;
+    opacity: .8;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hero3 .heading {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Volkhov', serif;
+}
+
+
+.hero3 .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    width: 35%;
+}
+
+.card img{
+    width: 100%;
+}
+
+
+.hero4{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero4 .left {
+    width: 40%;
+}
+
+.hero4 .left h6{
+    font-size: 16px;
+    font-weight: 600;
+    opacity: .8;
+    margin-bottom: 30px;
+}
+
+.hero4 .left h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-family: 'Volkhov', serif;
+}
+
+.hero4 .right {
+    width: 50%;
+}
+
+.hero4 .right img {
+margin-top: 30%;
+}
+
+.hero4 .desti{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.desti h6{
+    font-size: 16px;
+    opacity: .8;
+}
+
+.desti p{
+    margin-top: -10%;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -18px;
+}
+
+.hero5{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero5 .left{
+    width: 40%;
+}
+
+.hero5 h6{
+    font-size: 16px;
+    opacity: .8;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero5 h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.4;
+    font-family: 'Volkhov', serif;
+}
+
+.hero5 .right{
+    width: 50%;
+    background-color: #ededed;
+    border-radius: 20px;
+}
+
+.hero5 .right p{
+    text-align: start;
+    width: 300px;
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    opacity: .8;
+    line-height: 1.3;
+}
+
+.hero5 .right h5{
+    text-align: start;
+    width: 300px;
+    display: block;
+    margin: -5px auto;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.hero5 .right h6{
+    text-align: start;
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 1.3;
+    color: black;
+}
+
+.hero5 .right div{
+    text-align: start;
+    width: 30%;
+    display: block;
+    margin: 50px auto;
+    font-size: 16px;
+    line-height: 1.3;
+    color: black;
+}
+.hero5 .right div h6{
+    font-size: 16px;
+}
+
+.hero6{
+    margin-top: 100px;
+    padding-left: 30px;
+}
+
+.hero7{
+    margin: 100px auto;
+    width: 80%;
+}
+
+.hero7 .form{
+    background: 
+    #ededed;
+    border-radius: 50px 0 0 0;
+}
+
+.form h6{
+    padding: 70px 20%;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.4;
+}
+.form div{
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+.form input {
+    margin-left: 30%;
+    padding: 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 30%;
+}
+
+.form span{
+    background: #DF6951;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 30px;
+}
